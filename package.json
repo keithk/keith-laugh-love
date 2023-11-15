@@ -1,15 +1,9 @@
 {
   "name": "keith-laugh-love",
-  "module": "index.ts",
+  "module": "index.js",
   "type": "module",
   "scripts": {
     "start": "node ./index.js"
-  },
-  "devDependencies": {
-    "bun-types": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
   },
   "dependencies": {
     "fastify": "^4.24.3"
