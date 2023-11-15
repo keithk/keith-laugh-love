@@ -1,11 +1,16 @@
 {
-  "name": "keith-laugh-love",
-  "module": "index.js",
+  "name": "@example/basics",
   "type": "module",
+  "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "start": "node ./index.js"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
   "dependencies": {
-    "fastify": "^4.24.3"
+    "astro": "^3.5.4"
   }
 }
